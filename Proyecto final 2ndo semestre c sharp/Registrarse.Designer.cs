@@ -55,7 +55,7 @@
             // 
             // txtConfirmPassword
             // 
-            this.txtConfirmPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(125)))), ((int)(((byte)(244)))));
+            this.txtConfirmPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(193)))), ((int)(((byte)(113)))));
             this.txtConfirmPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConfirmPassword.Location = new System.Drawing.Point(60, 252);
             this.txtConfirmPassword.Name = "txtConfirmPassword";
@@ -139,7 +139,7 @@
             // 
             // textUser
             // 
-            this.textUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(125)))), ((int)(((byte)(244)))));
+            this.textUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(193)))), ((int)(((byte)(113)))));
             this.textUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textUser.Location = new System.Drawing.Point(60, 100);
             this.textUser.Name = "textUser";
@@ -157,7 +157,7 @@
             // 
             // textPassword
             // 
-            this.textPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(125)))), ((int)(((byte)(244)))));
+            this.textPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(193)))), ((int)(((byte)(113)))));
             this.textPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textPassword.Location = new System.Drawing.Point(60, 166);
             this.textPassword.Name = "textPassword";
@@ -180,7 +180,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(193)))), ((int)(((byte)(188)))));
-            this.ClientSize = new System.Drawing.Size(579, 448);
+            this.ClientSize = new System.Drawing.Size(338, 357);
             this.Controls.Add(this.btnEscaneoRostro);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textPassword);

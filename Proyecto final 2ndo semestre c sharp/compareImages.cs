@@ -1,4 +1,4 @@
-﻿using Emgu.CV;
+﻿/*using Emgu.CV;
 using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 using Keras.Models;
@@ -36,3 +36,4 @@ namespace Proyecto_final_2ndo_semestre_c_sharp
         }
     }
 }
+*/

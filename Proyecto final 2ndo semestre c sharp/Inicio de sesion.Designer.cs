@@ -38,6 +38,7 @@
             this.BtnLogIn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnLogWithFace = new System.Windows.Forms.Button();
+            this.btnSignOff = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,6 +48,7 @@
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(240, 20);
             this.txtUser.TabIndex = 0;
+            this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
             // 
             // label1
             // 
@@ -56,6 +58,7 @@
             this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "USER:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -65,6 +68,7 @@
             this.label2.Size = new System.Drawing.Size(70, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "PASSWORD";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtPassword
             // 
@@ -73,6 +77,7 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(240, 20);
             this.txtPassword.TabIndex = 2;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // label3
             // 
@@ -84,6 +89,7 @@
             this.label3.Size = new System.Drawing.Size(79, 17);
             this.label3.TabIndex = 4;
             this.label3.Text = "LOG IN";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // LblRegistrarse
             // 
@@ -130,12 +136,24 @@
             this.btnLogWithFace.UseVisualStyleBackColor = true;
             this.btnLogWithFace.Click += new System.EventHandler(this.btnLogWithFace_Click);
             // 
+            // btnSignOff
+            // 
+            this.btnSignOff.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSignOff.Location = new System.Drawing.Point(765, 12);
+            this.btnSignOff.Name = "btnSignOff";
+            this.btnSignOff.Size = new System.Drawing.Size(75, 27);
+            this.btnSignOff.TabIndex = 10;
+            this.btnSignOff.Text = "Sign Off";
+            this.btnSignOff.UseVisualStyleBackColor = true;
+            this.btnSignOff.Click += new System.EventHandler(this.btnSignOff_Click);
+            // 
             // Inicio_de_sesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(177)))), ((int)(((byte)(210)))));
             this.ClientSize = new System.Drawing.Size(852, 476);
+            this.Controls.Add(this.btnSignOff);
             this.Controls.Add(this.btnLogWithFace);
             this.Controls.Add(this.BtnLogIn);
             this.Controls.Add(this.LblRegistrarse);
@@ -165,5 +183,6 @@
         private System.Windows.Forms.Button BtnLogIn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnLogWithFace;
+        private System.Windows.Forms.Button btnSignOff;
     }
 }
